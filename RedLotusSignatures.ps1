@@ -29,6 +29,11 @@ if (!(Test-Admin)) {
 
 Start-Sleep -s 3
 
+Clear-Host
+
+$host.privatedata.ProgressForegroundColor = "red";
+$host.privatedata.ProgressBackgroundColor = "black";
+
 $pathsFilePath = "paths.txt"
 if(-Not(Test-Path -Path $pathsFilePath)){
     Write-Warning "The file $pathsFilePath does not exist."
