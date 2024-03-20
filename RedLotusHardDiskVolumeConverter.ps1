@@ -9,7 +9,7 @@ Write-Host @"
   ╚═╝  ╚═╝╚══════╝╚═════╝     ╚══════╝ ╚═════╝    ╚═╝    ╚═════╝ ╚══════╝         
 "@ -ForegroundColor Red
 Write-Host ""
-Write-Host "  Made by Bacanoicua kjj - " -ForegroundColor Blue -NoNewline
+Write-Host "  HardDiskVolume Converter Made by Bacanoicua kjj - " -ForegroundColor Blue -NoNewline
 Write-Host -ForegroundColor Red "discord.gg/redlotus"
 
 Write-Host ""
